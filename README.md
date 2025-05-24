@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# GiveMyCertificate
 
-## Project info
+A modern, responsive certificate generation and management platform built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/c16bc1fb-72df-40c6-938c-8634e6895ce9
+## 🚀 Features
 
-## How can I edit this code?
+- 📜 Beautiful certificate templates
+- 🌓 Dark/Light mode support
+- 📱 Fully responsive design
+- 🎨 Modern UI with Tailwind CSS
+- 🔒 Secure certificate verification
+- 📤 Easy sharing and downloading
+- 🔄 Real-time updates
+- 🎯 Customizable certificate fields
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend Framework:** React 18
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** Radix UI
+- **Icons:** Lucide React & React Icons
+- **Form Handling:** React Hook Form
+- **Validation:** Zod
+- **Routing:** React Router DOM
+- **State Management:** React Query
+- **Build Tool:** Vite
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c16bc1fb-72df-40c6-938c-8634e6895ce9) and start prompting.
+## 🏁 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/givemycertificate.git
+cd givemycertificate
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-**Use GitHub Codespaces**
+4. Open [http://localhost:8080](http://localhost:8080) in your browser.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Available Scripts
 
-## What technologies are used for this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-This project is built with:
+## 🎨 Customization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Certificate Templates
 
-## How can I deploy this project?
+You can customize certificate templates by modifying the components in the `src/components` directory.
 
-Simply open [Lovable](https://lovable.dev/projects/c16bc1fb-72df-40c6-938c-8634e6895ce9) and click on Share -> Publish.
+### Styling
 
-## Can I connect a custom domain to my Lovable project?
+The project uses Tailwind CSS for styling. You can customize the theme in `tailwind.config.js`.
 
-Yes, you can!
+## 🤝 Contributing
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- Your Name - Initial work - [YourGitHub](https://github.com/yourusername)
+
+## 🙏 Acknowledgments
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Vite](https://vitejs.dev/)
