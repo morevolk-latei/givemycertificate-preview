@@ -1,0 +1,31 @@
+{
+  "output": {
+    "filePath": "/Volumes/work/gmc preview/givemycertificate-preview/.repomix/repomix-output-",
+    "style": "xml",
+    "parsableStyle": false,
+    "headerText": "",
+    "instructionFilePath": "",
+    "fileSummary": true,
+    "directoryStructure": true,
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "topFilesLength": 5,
+    "showLineNumbers": false,
+    "copyToClipboard": false,
+    "includeEmptyDirectories": false,
+    "compress": true
+  },
+  "include": [ ],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [ ]
+  },
+  "security": {
+    "enableSecurityCheck": true
+  },
+  "tokenCount": {
+    "encoding": "o200k_base"
+  },
+  "cwd": "/Volumes/work/gmc preview/givemycertificate-preview"
+}

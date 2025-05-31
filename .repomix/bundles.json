@@ -1,0 +1,30 @@
+{
+  "bundles": {
+    "gmc-645": {
+      "name": "gmc",
+      "created": "2025-05-31T10:28:02.108Z",
+      "lastUsed": "2025-05-31T10:30:52.573Z",
+      "tags": [],
+      "files": [
+        "src",
+        ".repomix",
+        "public",
+        ".gitignore",
+        "bun.lockb",
+        "components.json",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "README.md",
+        "tailwind.config.ts",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts"
+      ],
+      "configPath": ".repomix/config/gmc-repomix.config.json"
+    }
+  }
+}
