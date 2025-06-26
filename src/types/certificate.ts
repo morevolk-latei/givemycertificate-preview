@@ -8,6 +8,7 @@ export interface CertificateDetails {
   recipient: {
     name: string;
     email?: string;
+    image?: string;
   };
   course: {
     title: string;

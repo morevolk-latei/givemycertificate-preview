@@ -9,7 +9,8 @@ export const certificatePageData: CertificatePageData = {
     id: "cert-001",
     recipient: {
       name: "Sahil Mor",
-      email: "sahil.mor@example.com"
+      email: "sahil.mor@example.com",
+      image: "https://alansonsample.com/images/Alanson_Headshot.jpg"
     },
     course: {
       title: "Frontend Developer (React)",

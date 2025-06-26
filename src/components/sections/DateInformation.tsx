@@ -25,7 +25,7 @@ const DateInformation: React.FC<DateInformationProps> = ({ dates }) => {
           </div>
         </div>
       )}
-      {dates.expiresOn && dates.expiresOn !== 'N/A' && (
+      {dates.expiresOn && (
         <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-xl flex items-start">
           <FaCalendarAlt className="text-xl text-gray-500 dark:text-gray-400 mt-1 mr-3" />
           <div>
